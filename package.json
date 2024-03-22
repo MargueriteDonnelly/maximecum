@@ -1,0 +1,45 @@
+{
+  "name": "maximecum",
+  "description": "Infinity Wallet connection SDK for DApp web3 connect integration",
+  "version": "1.0.0",
+  "homepage": "https://github.com/MargueriteDonnelly/maximecum.git",
+  "author": "CharityWeber",
+  "keywords": [
+    "eos",
+    "sint",
+    "quae",
+    "culpa",
+    "web3 connect",
+    "enim",
+    "wallet provider",
+    "tenetur",
+    "bnbchain",
+    "polygon",
+    "quo"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MargueriteDonnelly/maximecum.git"
+  },
+  "type": "commonjs",
+  "types": "./dist/index.d.ts",
+  "main": "./dist/index.js",
+  "exports": "./dist/index.js",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "tsc",
+    "start": "tsc --watch"
+  },
+  "dependencies": {
+    "@web3-react/abstract-connector": "^6.0.7",
+    "@web3-react/types": "^6.0.7",
+    "tiny-warning": "^1.0.3"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MargueriteDonnelly/maximecum.git/issues"
+  }
+}
